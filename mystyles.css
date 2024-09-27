@@ -1,0 +1,59 @@
+*, ::before, ::after{
+ color: black;
+}
+
+.head{
+     border: 2px solid black; height: 40%;
+     background-color: #333300 ;
+     color: black;
+     padding-top: 0px; padding-bottom: 50px;
+     text-align: center;
+     font-size: 1 emx;
+     font-weight: bold;
+     font-family: Times New Romans;
+}
+
+
+
+#logo{
+    position: absolute; left: 0; top: 0;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30%;
+    float: left;
+}
+.button:PROJECT DESCRIPTION {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+#img{
+    position: absolute; left: 0; top: 0;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    float: left;
+}
+body {
+ background-color: #333300;
+ color: #FFFFFF;
+}
+h1 {
+ color: #FFFF33;
+ text-align: center;
+ font: Aerial black;
+}
+p {
+ background-color: #FFFF33;
+ color: #333300;
+ text-align:center;
+ border: 10px groove #FFFF33;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 20px solid #008CBA;
+  text-align:center;
+}

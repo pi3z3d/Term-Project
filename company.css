@@ -1,0 +1,121 @@
+
+/* ------main-----*/
+.slider{
+    border: 2px solid black;
+    margin: 0 2% 0 2% 0;
+    width: 96%;
+    height: 300px;
+    background: url(civil-1.jpg);
+    animation: slide 10s infinite;
+
+}
+@keyframes slide{
+    25%{
+        background: url(photo-d.jpg);
+    }
+    50%{
+        background: url(photo-a.jpg);
+     }
+     75%{
+        background: url(photo-b.jpg);
+     }
+     100%{
+        background: url(photo-c.jpg);
+     }
+}
+
+
+
+/*----------------*/
+.col{
+    border: ;
+    margin: 10px;
+}
+
+.h-main{
+    border:;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 10px 30% 10px 30%;
+}
+
+.par-main{
+    border:;
+    line-height: 1.6;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    font-size: 1.56rem;
+}
+.par-main-2{
+    border:;
+    line-height: 1.6;
+    margin: 10px 60px 10px 60px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+ol{
+    border:;
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    min-width: 361px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0% 0% 10px 12.5%;
+
+}
+.ol-2 li, ol li{
+    width: 400px;
+    margin: 10px;
+    border:;
+    line-height:1.6;
+    font-size: 1.56rem;
+}
+
+.ol-2{
+    border: 2px solid green;
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    min-width: 361px;
+    display: flex;
+    justify-content: center;
+    flex-direction:;
+    margin-left: 30%;
+
+}
+
+@media only screen and (max-width: 525px) {
+    ol{
+        margin-left: 30px;
+    }
+    li{
+        margin-left: 10px;
+
+    }
+    .ol-2{
+        margin-left: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
